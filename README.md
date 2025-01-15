@@ -10,7 +10,7 @@
   </a>
 </p>
 ## 🌱 Skills
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=html,css,js,C++,c," />
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=html,css,js,cpp,c," />
 <br>
 
 ## Stats
