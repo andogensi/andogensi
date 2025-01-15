@@ -9,12 +9,13 @@
     <img height="20" src="https://img.shields.io/github/followers/Keichan15?label=follow&logo=github&style=flat" />
   </a>
 </p>
+
 ##  Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=html,css,js,cpp,c," />
 <br>
 
 ##  Practicing
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=R-Light,python" />
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=r,python" />
 <br>
 
 ## Stats
