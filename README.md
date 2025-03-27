@@ -1,4 +1,7 @@
 こんにちは　andogensiです hello im andogensi
+普段privateリポジトリで活動してるので
+パブリックのリポジトリはありません
+srcの流出を考えてのことですのですみません
 
 
 <p align="left">
