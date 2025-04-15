@@ -1,7 +1,6 @@
 こんにちは　andogensiです hello im andogensi
-        普段privateリポジトリで活動してるので
-パブリックのリポジトリはありません
-srcの流出を考えてのことですのですみません
+        普段privateリポジトリで活動しています
+CUDA C++などに興味があります
 
 
 <p align="left">
@@ -18,7 +17,7 @@ srcの流出を考えてのことですのですみません
 <br>
 
 ##  Practicing
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=r,python" />
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=r,python,go,kali" />
 <br>
 
 ## Stats
