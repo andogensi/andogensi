@@ -17,7 +17,7 @@ CUDA C++などに興味があります
 <br>
 
 ##  Practicing
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=r,python,go,kali" />
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=r,python,go,kali,rust" />
 <br>
 
 ## Stats
