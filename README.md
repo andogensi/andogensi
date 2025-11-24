@@ -34,7 +34,7 @@ My passion lies in understanding how software works at the binary level and buil
 
 ### 🔭 Project Highlights (Private & Public)
 
-#### 🎮 Core System & Graphics (C++ / DirectX 11)
+#### Core System & Graphics (C++ / DirectX 11)
 * **High-Performance Internal Modding Framework**
     * Designed a lightweight internal overlay and modding engine for DirectX 11 applications.
     * **DirectX 11アプリケーション向けの、軽量な内部オーバーレイおよびModディングエンジンの開発。**
@@ -45,7 +45,7 @@ My passion lies in understanding how software works at the binary level and buil
         * **Low-Level Manipulation:** Utilized **MinHook** for API detouring and **libhat** for robust signature scanning.
         * **Networking:** Asynchronous HTTP communication via **WinHttpClient** for cloud integration.
 
-#### 🛡️ System & Security (Low-Level)
+####  System & Security (Low-Level)
 * **Custom Mod Loader & Injector** (C#, WPF, .NET)
   * Advanced launcher for UWP applications with **DLL Injection & Process Instrumentation**.
   * Features process optimization, memory management, and hardware monitoring using **LibreHardwareMonitor**.
@@ -60,7 +60,7 @@ My passion lies in understanding how software works at the binary level and buil
   * Experience with **IDA** for reconstructing function signatures in **stripped binaries**.
   * Implementing function hooks using **assembly manipulation** and memory writing for **runtime behavior modification**.
 
-#### 🤖 AI & RAG System
+####  AI & RAG System
 * **RAG-based Doc Search API** (Python, LangChain)
     * Developed a Retrieval-Augmented Generation system using **ChromaDB**, **Flask**, and **Gemini/GPT-4**.
     * Implemented optimized chunking strategies for handling large PDF datasets.
@@ -70,7 +70,7 @@ My passion lies in understanding how software works at the binary level and buil
     * AI-based music separation tool combining **PyTorch** and **C++** for high-performance processing.
     * 音源分離AIを用いたデスクトップアプリ。バックエンドの一部をC++で高速化。
 
-#### 🔧 Utilities & Efficiency
+####  Utilities & Efficiency
 * **Attendance Reminder** (Chrome Extension)
     * Automated attendance tracking helper for students. Published on Chrome Web Store.
     * 学生生活を支援する、出席登録リマインダー拡張機能。
