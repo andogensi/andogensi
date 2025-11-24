@@ -10,7 +10,14 @@ Currently working on private repositories.
   <img src="https://komarev.com/ghpvc/?username=andogensi&label=Profile%20Views&color=blueviolet&style=flat" alt="views" />
   <img src="https://img.shields.io/github/followers/andogensi?label=Followers&logo=github&style=flat&color=grey" alt="followers" />
 </p>
-
+<p align="left">
+  <a href="https://github.com/andogensi">
+    <img height="20" src="https://komarev.com/ghpvc/?username=Keichan15" />
+  </a>
+  <a href="https://github.com/andogensi">
+    <img height="20" src="https://img.shields.io/github/followers/Keichan15?label=follow&logo=github&style=flat" />
+  </a>
+</p>
 ---
 
 ### 🛠 Tech Stack
