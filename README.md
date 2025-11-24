@@ -4,7 +4,7 @@ I specialize in **Low-level Programming**, **Reverse Engineering**, and **Securi
 My passion lies in understanding how software works at the binary level and building tools to manipulate it.
 
 普段はPrivateリポジトリを中心に、C++や低レイヤー技術を用いた開発を行っています。
-解析（Reverse Engineering）から、実用的なアプリケーション開発（GUI/Web）まで幅広く手がけています。
+解析（Reverse Engineering）から、実用的なアプリケーション開発（GUI/Web）まで幅広く開発してます
 
 <p align="left">
   <a href="https://github.com/andogensi">
