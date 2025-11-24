@@ -5,11 +5,6 @@ Currently working on private repositories.
 
 普段はPrivateリポジトリを中心に、C++や低レイヤー技術を用いた開発を行っています。  
 企業のインターンや共同開発にも興味があります。
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=andogensi&label=Profile%20Views&color=blueviolet&style=flat" alt="views" />
-  <img src="https://img.shields.io/github/followers/andogensi?label=Followers&logo=github&style=flat&color=grey" alt="followers" />
-</p>
 <p align="left">
   <a href="https://github.com/andogensi">
     <img height="20" src="https://komarev.com/ghpvc/?username=Keichan15" />
