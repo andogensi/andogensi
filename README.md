@@ -17,7 +17,7 @@ My passion lies in understanding how software works at the binary level and buil
 
 ---
 
-### 🛠 Tech Stack
+### Tech 
 **Core & Low-Level**
 <br>
 <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=cpp,c,cs,kotlin,linux,kali" />
@@ -32,7 +32,7 @@ My passion lies in understanding how software works at the binary level and buil
 
 ---
 
-### 🔭 Project Highlights (Private & Public)
+### Project Highlights (Private & Public)
 
 #### Core System & Graphics (C++ / DirectX 11)
 * **High-Performance Internal Modding Framework**
@@ -85,7 +85,7 @@ My passion lies in understanding how software works at the binary level and buil
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 <p align="center">
   <img height="160" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=andogensi&theme=gruvbox" />
   <img height="160" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=andogensi&theme=gruvbox" />
