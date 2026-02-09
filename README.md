@@ -21,7 +21,7 @@ My passion lies in understanding software internals at the binary level and buil
 ### Tech Stack
 **Core & Low-Level**
 <br>
-<img src="https://skillicons.dev/icons?theme=dark&perline=8&i=cpp,c,cs,kotlin,linux,kali" />
+<img src="https://skillicons.dev/icons?theme=dark&perline=8&i=cpp,c,cs,kotlin,kali" />
 
 **Analysis & Tools**
 <br>
