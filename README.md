@@ -45,21 +45,11 @@ My passion lies in understanding software internals at the binary level and buil
     * **Low-Level Control:** API detouring using **MinHook** and robust signature scanning with **libhat** for version-independent compatibility.
     * **Modern C++:** Built with **C++17/20**, focusing on compile-time optimization and type safety.
 
-#### System & Security Research
+####  System & Security Research
 **Process Instrumentation Tool** (C#, WPF, .NET)
 * Advanced launcher for UWP applications with **DLL Injection** capabilities.
 * Features memory management and hardware monitoring using **LibreHardwareMonitor**.
 * UWPプロセスへのインジェクション、メモリ最適化・ハードウェア監視機能を統合したランチャー開発。
-
-####  High-Performance Computing (CUDA / C++)
-**V10Inference - Scratch-built AI Inference Engine**
-* **Overview:** Developed a lightweight neural network inference engine from scratch, executing ONNX models on NVIDIA GPUs without relying on high-level frameworks like TensorRT.
-* **ONNXモデルを解析し、自作のCUDAカーネルを用いて推論を行う軽量エンジンの開発。**
-* **Key Technologies & Implementation:**
-    * **Custom CUDA Kernels:** Implemented **Convolution (Conv2D)**, **MaxPooling**, and **Softmax** kernels from scratch to optimize parallel execution on GPU.
-    * **Low-Level Memory Management:** Manually managed Host-Device memory transfers (`cudaMalloc`, `cudaMemcpy`) to minimize latency and optimize bandwidth usage.
-    * **ONNX Integration:** Built a custom parser to extract tensor data and network topology directly from **ONNX Protocol Buffers**, enabling interoperability with standard trained models.
-    * **Pipeline Architecture:** Designed a layer-by-layer execution pipeline supporting multi-channel convolution and fully connected layers for MNIST-scale tasks
 
 **Binary Protection & Analysis** (C++)
 * **Obfuscation Research:** Developed a custom XOR/Substitution cipher library for **intellectual property protection**.
@@ -67,8 +57,18 @@ My passion lies in understanding software internals at the binary level and buil
 * **Reverse Engineering:** Reconstructing function signatures in stripped binaries and implementing assembly-level hooks.
 * 静的解析耐性を持つ軽量難読化ライブラリの開発および、バイナリ保護技術の研究。
 
-#### 🛠️ Developer Experience (DX) & Tools
-**CppLiveTuner** (C++17 / Header-only Library)
+####  High-Performance Computing (CUDA / C++)
+**V10Inference - Scratch-built AI Inference Engine** (Public)
+* **Overview:** Developed a lightweight neural network inference engine from scratch, executing ONNX models on NVIDIA GPUs without relying on high-level frameworks like TensorRT.
+* **ONNXモデルを解析し、自作のCUDAカーネルを用いて推論を行う軽量エンジンの開発。**
+* **Key Technologies & Implementation:**
+    * **Custom CUDA Kernels:** Implemented **Convolution (Conv2D)**, **MaxPooling**, and **Softmax** kernels from scratch to optimize parallel execution on GPU.
+    * **Low-Level Memory Management:** Manually managed Host-Device memory transfers (`cudaMalloc`, `cudaMemcpy`) to minimize latency and optimize bandwidth usage.
+    * **ONNX Integration:** Built a custom parser to extract tensor data and network topology directly from **ONNX Protocol Buffers**, enabling interoperability with standard trained models.
+    * **Pipeline Architecture:** Designed a layer-by-layer execution pipeline supporting multi-channel convolution and fully connected layers for MNIST-scale tasks.
+
+####  Developer Experience (DX) & Tools
+**CppLiveTuner** (C++17 / Header-only Library / Public)
 * **Overview:** A cross-platform, header-only library enabling real-time parameter tuning in C++ applications without recompilation.
 * **再ビルド待ち時間をゼロにする、C++開発者向けのライブチューニングライブラリ（STBスタイル）。**
 * **Key Technologies & Implementation:**
@@ -78,7 +78,7 @@ My passion lies in understanding software internals at the binary level and buil
 
 ####  Product & Utility Development
 **StemStudio** (Python, C++)
-* **Overview:** AI-based music separation tool combining **PyTorch** with a **C++ backend** for performance critical sections.
+* **Overview:** AI-based music separation tool combining **PyTorch** with a **C++ backend** for performance-critical sections.
 * **Technology:** Accelerated signal processing using C++ to overcome Python's GIL limitations.
 * 音源分離AIを用いたデスクトップアプリ。ボトルネックとなる処理をC++で記述し高速化を実現。
 
@@ -90,9 +90,6 @@ My passion lies in understanding software internals at the binary level and buil
 **RAG-based Doc Search API** (Python, LangChain)
 * Developed a Retrieval-Augmented Generation system using **ChromaDB** and **Gemini/GPT-4**.
 * Implemented optimized chunking strategies for handling large PDF datasets.
-
-
----
 
 ### GitHub Stats
 <p align="center">
