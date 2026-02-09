@@ -18,7 +18,7 @@ My passion lies in understanding software internals at the binary level and buil
 ### Tech Stack
 **Core & Low-Level**
 <br>
-<img src="https://skillicons.dev/icons?theme=dark&perline=8&i=cpp,c,cs,kotlin,rust" />
+<img src="https://skillicons.dev/icons?theme=dark&perline=8&i=cpp,c,cs,kotlin,kari" />
 **Engineering & Analysis**
 <br>
 `DirectX 11` `CUDA` `Win32 API` `x86/x64 Assembly` `IDA` `Ghidra`
