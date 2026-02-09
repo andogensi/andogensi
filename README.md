@@ -1,10 +1,11 @@
 # Hi there, I'm andogensi
 
-I specialize in **Low-level Programming**, **Reverse Engineering**, and **Security Tool Development**.
-My passion lies in understanding how software works at the binary level and building tools to manipulate it.
+I specialize in **Low-level Programming**, **System Programming**, and **Security Research**.
+My passion lies in understanding software internals at the binary level and building high-performance tools.
+（ソフトウェアの深層理解と、低レイヤー技術を用いた高パフォーマンスなアプリケーション開発を専門としています）
 
-普段はPrivateリポジトリを中心に、C++や低レイヤー技術を用いた開発を行っています。
-解析（Reverse Engineering）から、実用的なアプリケーション開発（GUI/Web）まで幅広く開発してます
+大学1年・情報学部所属。
+普段はセキュリティ保護の観点からPrivateリポジトリを中心に活動していますが、**解析技術（Reverse Engineering）**から**GUI/Webアプリケーション開発**まで、"動くもの"を作り上げる実践的な開発を行っています。
 
 <p align="left">
   <a href="https://github.com/andogensi">
@@ -17,71 +18,79 @@ My passion lies in understanding how software works at the binary level and buil
 
 ---
 
-### Tech 
+### Tech Stack
 **Core & Low-Level**
 <br>
 <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=cpp,c,cs,kotlin,linux,kali" />
 
 **Analysis & Tools**
 <br>
-`IDA` `Ghidra` `Win32 API` `x86/x64 Assembly` `CUDA` `Memorydebugger`
+`IDA` `Ghidra` `Win32 API` `x86/x64 Assembly` `CUDA` `DirectX`
 
-**Web & AI**
+**Application & Web**
 <br>
 <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=python,pytorch,js,ts,flask,qt,flutter" />
 
 ---
 
-### Project Highlights (Private & Public)
+### Project Highlights
 
-#### Core System & Graphics (C++ / DirectX 11)
-* **High-Performance Internal Modding Framework**
-    * Designed a lightweight internal overlay and modding engine for DirectX 11 applications.
-    * **DirectX 11アプリケーション向けの、軽量な内部オーバーレイおよびModディングエンジンの開発。**
-    * **Key Technologies & Architecture:**
-        * **Graphics Pipeline:** Hooked D3D11 Swapchain using **Kiero** to render custom UI via **ImGui/ImFX**.
-        * **Entity Management:** Implemented **EnTT (ECS)** for high-performance entity component management, optimizing memory layout.
-        * **Core System:** Built with **Modern C++ (C++17/20)**, utilizing **nlohmann/json** for config serialization.
-        * **Low-Level Manipulation:** Utilized **MinHook** for API detouring and **libhat** for robust signature scanning.
-        * **Networking:** Asynchronous HTTP communication via **WinHttpClient** for cloud integration.
+####  Core System & Graphics Engineering (C++ / DirectX 11)
+**Runtime Overlay & Process Extension Framework**
+* **Overview:** Designed a lightweight internal rendering engine for DirectX 11 applications.
+* **DirectX 11アプリケーション向けの、軽量な内部オーバーレイおよびランタイム拡張エンジンの開発。**
+* **Key Technologies:**
+    * **Graphics Pipeline:** Custom rendering pipeline hooking via **Kiero**, implementing UI with **ImGui/ImFX**.
+    * **Architecture:** Implemented **EnTT (ECS)** for high-performance component management, optimizing memory layout.
+    * **Low-Level Control:** API detouring using **MinHook** and robust signature scanning with **libhat** for version-independent compatibility.
+    * **Modern C++:** Built with **C++17/20**, focusing on compile-time optimization and type safety.
 
-####  System & Security (Low-Level)
-* **Custom Mod Loader & Injector** (C#, WPF, .NET)
-  * Advanced launcher for UWP applications with **DLL Injection & Process Instrumentation**.
-  * Features process optimization, memory management, and hardware monitoring using **LibreHardwareMonitor**.
-  * UWPプロセスへのインジェクションおよび、メモリ最適化・ハードウェア監視機能を統合したランチャー開発。
+#### System & Security Research
+**Process Instrumentation Tool** (C#, WPF, .NET)
+* Advanced launcher for UWP applications with **DLL Injection** capabilities.
+* Features memory management and hardware monitoring using **LibreHardwareMonitor**.
+* UWPプロセスへのインジェクション、メモリ最適化・ハードウェア監視機能を統合したランチャー開発。
 
-* **Binary Protection Research** (C++)
-  * **String Obfuscation Library:** Custom XOR and Substitution cipher implementation designed for **intellectual property protection**.
-  * **Anti-Analysis Research:** Investigated techniques to mitigate static analysis by **IDA/Ghidra**.
-  * 静的解析（IDA/Strings）耐性を持つ軽量難読化ライブラリの開発および、バイナリ保護技術の研究。
+####  High-Performance Computing (CUDA / C++)
+**V10Inference - Scratch-built AI Inference Engine**
+* **Overview:** Developed a lightweight neural network inference engine from scratch, executing ONNX models on NVIDIA GPUs without relying on high-level frameworks like TensorRT.
+* **ONNXモデルを解析し、自作のCUDAカーネルを用いて推論を行う軽量エンジンの開発。**
+* **Key Technologies & Implementation:**
+    * **Custom CUDA Kernels:** Implemented **Convolution (Conv2D)**, **MaxPooling**, and **Softmax** kernels from scratch to optimize parallel execution on GPU.
+    * **Low-Level Memory Management:** Manually managed Host-Device memory transfers (`cudaMalloc`, `cudaMemcpy`) to minimize latency and optimize bandwidth usage.
+    * **ONNX Integration:** Built a custom parser to extract tensor data and network topology directly from **ONNX Protocol Buffers**, enabling interoperability with standard trained models.
+    * **Pipeline Architecture:** Designed a layer-by-layer execution pipeline supporting multi-channel convolution and fully connected layers for MNIST-scale tasks
 
-* **Binary Analysis & Hooking**
-  * Experience with **IDA** for reconstructing function signatures in **stripped binaries**.
-  * Implementing function hooks using **assembly manipulation** and memory writing for **runtime behavior modification**.
+**Binary Protection & Analysis** (C++)
+* **Obfuscation Research:** Developed a custom XOR/Substitution cipher library for **intellectual property protection**.
+* **Anti-Analysis Techniques:** Research on mitigating static analysis by tools like IDA/Ghidra.
+* **Reverse Engineering:** Reconstructing function signatures in stripped binaries and implementing assembly-level hooks.
+* 静的解析耐性を持つ軽量難読化ライブラリの開発および、バイナリ保護技術の研究。
 
-####  AI & RAG System
-* **RAG-based Doc Search API** (Python, LangChain)
-    * Developed a Retrieval-Augmented Generation system using **ChromaDB**, **Flask**, and **Gemini/GPT-4**.
-    * Implemented optimized chunking strategies for handling large PDF datasets.
-    * PDF読込からベクトル検索、回答生成までを行うRAGシステムのバックエンド構築。
+#### 🛠️ Developer Experience (DX) & Tools
+**CppLiveTuner** (C++17 / Header-only Library)
+* **Overview:** A cross-platform, header-only library enabling real-time parameter tuning in C++ applications without recompilation.
+* **再ビルド待ち時間をゼロにする、C++開発者向けのライブチューニングライブラリ（STBスタイル）。**
+* **Key Technologies & Implementation:**
+    * **Native OS Integration:** Implemented event-driven file monitoring using specific OS APIs (**ReadDirectoryChangesW** for Win, **inotify** for Linux, **FSEvents** for macOS) to achieve ~1ms latency with near-zero CPU usage.
+    * **Thread Safety for Games:** Designed a synchronization mechanism where callbacks execute on the main thread, ensuring safety for graphics APIs (DirectX/OpenGL) updates.
+    * **API Design:** Adopts **STB-style** single-header architecture for easy integration, supporting dependency injection for unit testing.
 
-* **StemStudio** (Python, C++)
-    * AI-based music separation tool combining **PyTorch** and **C++** for high-performance processing.
-    * 音源分離AIを用いたデスクトップアプリ。バックエンドの一部をC++で高速化。
+####  Product & Utility Development
+**StemStudio** (Python, C++)
+* **Overview:** AI-based music separation tool combining **PyTorch** with a **C++ backend** for performance critical sections.
+* **Technology:** Accelerated signal processing using C++ to overcome Python's GIL limitations.
+* 音源分離AIを用いたデスクトップアプリ。ボトルネックとなる処理をC++で記述し高速化を実現。
 
-####  Utilities & Efficiency
-* **Attendance Reminder** (Chrome Extension)
-    * Automated attendance tracking helper for students. Published on Chrome Web Store.
-    * 学生生活を支援する、出席登録リマインダー拡張機能。
+**Attendance Reminder** (Chrome Extension / JavaScript)
+* **Problem Solving:** Automated attendance tracking helper for students to prevent missed registrations.
+* **Impact:** Published on Chrome Web Store to support student life.
+* 学生の課題（出席登録漏れ）を解決するChrome拡張機能。GitHub Publicにて公開中。
 
-* **MemoEx** (Python, PyQt, QML)
-    * High-performance memo application with "Always on Top" overlay features.
-    * 常に最前面に表示される、高機能メモアプリケーション。
+**RAG-based Doc Search API** (Python, LangChain)
+* Developed a Retrieval-Augmented Generation system using **ChromaDB** and **Gemini/GPT-4**.
+* Implemented optimized chunking strategies for handling large PDF datasets.
 
-* **PDF Report Generator** (Python, Flet)
-    * Markdown-to-PDF converter with real-time preview using **Flet** and **ReportLab**.
-    * MarkdownからPDFを生成するGUIツール。MVCアーキテクチャを使用
 
 ---
 
