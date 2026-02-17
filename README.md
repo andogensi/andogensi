@@ -69,12 +69,12 @@ My passion lies in understanding software internals at the binary level and buil
 **StemStudio** (Python, C++)
 * **Overview:** AI-based music separation tool combining **PyTorch** with a **C++ backend** for performance-critical sections.
 * **Impact:** Developed a hybrid architecture to overcome Python's GIL limitations for real-time processing.
-* 音源分離AIを用いたデスクトップアプリ。ボトルネックとなる処理をC++で記述し高速化を実現。
+* 音源分離AIを用いたデスクトップアプリ。ボトルネックとなる処理をC++で記述し高速化。
 
 **Attendance Reminder** (Chrome Extension / JavaScript)
 * **Problem Solving:** Automated attendance tracking helper for students. Published on Chrome Web Store.
 * **Impact:** Solved a real-world problem for university students, improving daily productivity.
-* 学生の課題（出席登録漏れ）を解決するChrome拡張機能。ユーザー視点での課題解決を実践。
+* 学生の課題（出席登録漏れ）を解決するChrome拡張機能。ユーザー視点での課題解決。
 
 
 ### GitHub Stats
