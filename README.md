@@ -2,7 +2,7 @@
 
 I specialize in **System Programming**, **High-Performance Computing**, and **Game/Graphics Engineering**.
 My passion lies in understanding software internals at the binary level and building high-performance tools from scratch.
-（ソフトウェアの深層理解と、低レイヤー技術を用いた高パフォーマンスなアプリケーション開発を専門としています）
+（ソフトウェアの深層理解と、低レイヤー技術を用いた高パフォーマンスなアプリケーションをしています）
 
 大学1年・情報学部所属。
 **C++ / DirectX / CUDA** を用いたコアシステムの開発を中心に、バイナリ解析技術からGUI/Webアプリケーションまで、"仕組み"を理解して"動くもの"を作り上げる実践的な開発を行っています。
